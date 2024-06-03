@@ -80,7 +80,7 @@ font-size: 20px;
     }
 
     .content{
-        height: 80vh;
+        height: vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -117,11 +117,10 @@ font-size: 20px;
         text-align: left;
 
     }
-@media (max-width: 768px){
+@media screen (max-width: 768px){
     .title{
         margin-bottom: 0;
         font-size: 40px;
-
     }
     .sau{
         height: 120vh;
