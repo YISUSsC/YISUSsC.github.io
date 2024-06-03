@@ -181,11 +181,10 @@ font-size: 20px;
         text-align: left;
 
     }
-@media screen (max-width: 768px){
+@media screen (max-width: 767px){
     .title{
         margin-bottom: 0;
-        font-size: 30px;
-
+        font-size: 20px;
     }
     .sau{
         height: 100vh;
