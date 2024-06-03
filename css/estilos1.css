@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background:#171717 ;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+display: flex;
+margin-right: 10px;
+}
+
+.logo{
+margin-left: 30px;
+}
+
+.logo a{
+text-decoration: none;
+color:white;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+.navbar a:hover{
+    background: rgb(92, 82, 82);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .header{
+        height:69vh !important ;
+        background: linear-gradient( to right,rgba(15, 148, 15, 0.281),rgba(179, 174, 174, 0.205),rgba(233, 3, 3, 0.219)),url(../img/personajes\ historicos.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+     }
+
+    .title{
+        margin-bottom: 35px;
+        font-size: 45px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    p{
+        margin-bottom: 40px;
+        font-size: 18px;
+        color: #ffffff;
+        padding: 0 100px;
+        text-align: justify;
+    }
+
+    .btn{
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 40px;
+        border: 2px solid black;
+        color: white;
+        text-decoration: none;
+        background: black;
+    }
+    .s1-img {
+max-width: 320px;
+float: left;
+border: 3px solid #ffffff;
+border-radius: 10px;
+margin-right: 15px;
+
+    }
+
+    .btn:hover{
+        background: none;
+    }
+
+    .btn-home{
+        display: flex;
+    }
+
+    .btn-home a{
+        margin: 0 10px;
+    }
+
+    .content{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sau{
+        padding: 30px;
+        background:#000000fd;
+    }
+
+    .box-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .box-container .box{
+        height: 11rem;
+        width: 17rem;
+        background: linear-gradient(90deg,rgb(0, 99, 0),rgb(26, 211, 41),rgb(21, 114, 9));
+        text-align: center;
+        border-radius: 1rem;
+        box-shadow: 0.3rem 5rem rgba(0, 0, 0, .5);
+        margin: 2rem;
+    }
+
+    .box-container .box i{
+        height: 3rem;
+        width: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        border-radius: 50%;
+        color: rgb(0, 0, 0);
+        background: #ffffff;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+     
+    .box-container .box h3{
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .box-container .box p{
+        padding: 0 15px;
+        font-size: 16px;
+    }
+
+    .about{
+        background-color: #171717;
+    }
+
+    .price{
+        background-color: #000000;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center; 
+        
+    }
+
+    .contact{
+        padding-top: 20px;
+        background: #292828;
+        padding-bottom: 0;
+        text-align: left;
+
+    }
+@media (max-width: 768px){
+    .title{
+        margin-bottom: 0;
+        font-size: 30px;
+
+    }
+    .sau{
+        height: 100vh;
+    }
+    .navbar{
+        display: none;
+    }
+}
